@@ -1,0 +1,33 @@
+{
+    "name": "nuernberger-me/string-cs-fixer",
+    "description": "Make cs-fixer work with strings instead of files",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Nürnberger",
+            "email": "adrian@nuernberger.me",
+            "role": "Developer",
+            "homepage": "https://nuernberger.me"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "friendsofphp/php-cs-fixer": "^3.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.10",
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "NuernbergerMe\\StringCsFixer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
